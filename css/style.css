@@ -203,6 +203,9 @@ h1 span { color: var(--blue); }
 .project-copy dl div { display: grid; grid-template-columns: 100px 1fr; gap: 15px; padding: 9px 0; border-top: 1px solid rgba(207, 226, 241, 0.18); }
 .project-copy dt { color: #7fa5bf; font: 650 0.63rem/1.6 var(--font-mono); text-transform: uppercase; }
 .project-copy dd { margin: 0; color: #d7e6f0; font-size: 0.8rem; }
+.project-copy .role-list { display: grid; gap: 7px; margin: 0; padding: 0; padding-inline-start: 0; list-style: none; }
+.role-item { position: relative; padding-left: 18px; }
+.role-item::before { content: ""; position: absolute; top: 0.72em; left: 0; width: 5px; height: 5px; background: #69b7ed; border-radius: 50%; }
 
 /* Skills gallery */
 .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
